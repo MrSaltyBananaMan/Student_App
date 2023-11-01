@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0bc2ba84-94ad-4264-b90c-9c30a2c746f1" name="Changes" comment="Created a new class called Student and an instance of student which populates and displays through getters/setters">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/StudentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/StudentApp.java" afterDir="false" />
     </list>
@@ -31,9 +29,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2XagkiBjDoDslfwwg3vXoDIuwxN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -45,7 +43,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "feature2",
+    "git-widget-placeholder": "feature3",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

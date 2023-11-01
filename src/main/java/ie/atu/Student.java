@@ -14,6 +14,12 @@ class Student {
     public Student(String n) {
         this.name = n;
     }
+
+    public Student(String n, String e, String c){
+        this.name = n;
+        this.email = e;
+        this.course = c;
+    }
     public String getName()
     {
         return this.name;
@@ -39,5 +45,9 @@ class Student {
 
     public void setCourse(String c){
         this.course = c;
+    }
+
+    public void displayInfo() {
+        System.out.println("Name: " + name + ". \nEmail = " + email + ". \nCourse: " + course);
     }
 }

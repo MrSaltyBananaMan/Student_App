@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class StudentApp {
     public static void main(String[] args) {
+        String name, email, course;
         // Part 1
 
         Student student1 = new Student();
@@ -30,6 +31,18 @@ public class StudentApp {
         System.out.println("Enter course: ");
         student2.setCourse(scanner.nextLine());
 
+        // Part 3
+        System.out.println("Third Student; \n");
+        System.out.println("Enter name: ");
+        name = scanner.nextLine();
+
+        System.out.println("Enter email: ");
+        email = scanner.nextLine();
+
+        System.out.println("Enter course: ");
+        course = scanner.nextLine();
+
+        Student student3 = new Student(name, email, course);
 
         // Display student1 info
         System.out.println("First Student; ");
@@ -38,5 +51,9 @@ public class StudentApp {
         // Display student2 info
         System.out.println("Second Student; ");
         System.out.println("Name " + student2.getName() + "\nEmail: " + student2.getEmail() + "\nCourse: " + student2.getCourse() + "\n");
+
+        // Display student3 info
+        System.out.println("Third Student; ");
+        student3.displayInfo();
     }
 }
