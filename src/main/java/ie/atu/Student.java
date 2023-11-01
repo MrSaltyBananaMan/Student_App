@@ -11,6 +11,9 @@ class Student {
         this.course = " ";
     }
 
+    public Student(String n) {
+        this.name = n;
+    }
     public String getName()
     {
         return this.name;
